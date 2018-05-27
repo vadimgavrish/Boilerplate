@@ -14,7 +14,7 @@ import PassReset from './containers/PassReset';
 const redirectPath = (props) => props.match.url.substring(6);
 
 const getCookie = (cookiename) => {
-  var cookiestring=RegExp(""+cookiename+"[^;]+").exec(document.cookie);
+  var cookiestring = RegExp(""+cookiename+"[^;]+").exec(document.cookie);
   return decodeURIComponent(!!cookiestring ? cookiestring.toString().replace(/^[^=]+./,"") : "");
 }
 
@@ -45,6 +45,14 @@ const routes = (
   <ConnectedRouter history={history}>
     <Switch>
       <Route
+        exact path="/*"
+        render={(props) => (
+          <div>
+            <p>EXOTICS<strong>.IO</strong></p>
+          </div>
+        )}
+      />
+      {/* <Route
         exact path="/login(|/.*)"
         render={(props) => (
           isLoggedIn() ? (
@@ -73,7 +81,7 @@ const routes = (
             <Redirect to="/login" />
           )
         )} 
-      />
+      /> */}
     </Switch>
   </ConnectedRouter>
 );
