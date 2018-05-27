@@ -1,0 +1,104 @@
+.form {
+  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+}
+
+.nameField {
+  font-size: 16px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.emailField {
+  margin-top: 12px;
+  font-size: 16px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
+
+.emailFieldConfirm {
+  font-size: 16px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+.passFieldreg {
+  margin-top: 12px;
+  font-size: 16px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
+
+.passFieldConfirm {
+  font-size: 16px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+
+.registerButton {
+  margin-top: 24px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 5px 10px 5px;
+  width: 100%;
+  background-color: rgb(115, 207, 178);
+  transition: .3s all;
+}
+
+.registerButton:hover {
+  background-color: rgb(103, 187, 160);
+  cursor: pointer;
+}
+
+.registerButton:active {
+  background-color: rgb(83, 148, 127);
+}
+
+.loginButton:focus {
+  outline: none;
+}
+
+.signUpError {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(238, 162, 162);
+}
+
+.link {
+  text-align: right;
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+  font-weight: 400;
+  transition: .3s all;
+}
+
+.link:hover {
+  color: rgb(216, 216, 216);  
+  cursor: pointer;
+}
+
+.link:active {
+  color: rgb(245, 245, 245);  
+}

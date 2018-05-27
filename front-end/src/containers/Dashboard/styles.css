@@ -1,0 +1,45 @@
+.dashboard {
+  background: rgb(96, 119, 148);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.greeting {
+  font-size: 36px;
+  margin: 10px;
+  color: white;
+}
+
+.verificationError {
+  margin: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(238, 162, 162);
+}
+
+.logoutButton {
+  font-weight: 400;
+  text-align: center;
+  margin: 150px 0 0 25px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 5px 10px 5px;
+  width: 100px;
+  background-color: rgb(115, 207, 178);
+  transition: .3s all;
+}
+
+.logoutButton:hover {
+  background-color: rgb(103, 187, 160);
+  cursor: pointer;
+}
+
+.logoutButton:active {
+  background-color: rgb(83, 148, 127);
+}
+
+.logoutButton:focus {
+  outline: none;
+}

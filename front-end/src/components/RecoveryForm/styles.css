@@ -1,0 +1,39 @@
+.form {
+  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+}
+
+.recoveryEmailField {
+  font-size: 16px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.submitButton {
+  margin-top: 24px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 5px 10px 5px;
+  width: 100%;
+  background-color: rgb(115, 207, 178);
+  transition: .3s all; 
+}
+
+.submitButton:hover {
+  background-color: rgb(103, 187, 160);
+  cursor: pointer;
+}
+
+.submitButton:active {
+  background-color: rgb(83, 148, 127); 
+}
+
+.submitButton:focus {
+  outline: none;
+}
